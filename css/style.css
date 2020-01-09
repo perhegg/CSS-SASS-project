@@ -97,9 +97,6 @@ body {
 .u-margin-bottom-small {
   margin-bottom: 1.5rem; }
 
-.u-margin-bottom-medium {
-  margin-bottom: 2rem; }
-
 .u-margin-bottom-big {
   margin-bottom: 8rem; }
 
@@ -173,6 +170,23 @@ body {
 .btn-text:active {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
   transform: translateY(0); }
+
+.composition {
+  position: relative; }
+  .composition__photo {
+    width: 300px;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute; }
+    .composition__photo--p1 {
+      left: 0;
+      top: -2rem; }
+    .composition__photo--p2 {
+      right: 0;
+      top: 20px; }
+    .composition__photo--p3 {
+      left: 20%;
+      top: 10rem; }
 
 .header {
   height: 95vh;
