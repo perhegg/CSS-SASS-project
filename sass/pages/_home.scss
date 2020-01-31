@@ -1,11 +1,17 @@
 .section-about {
     background-color: $color-grey-light-1;
     padding: 25rem 0;
-    margin-top: -20vh;
-
+    margin-top: -14vh;
+    
+    
     @include respond(tab-port) {
         padding: 25rem 0;
     }
+    
+    @include respond(phone) {
+        margin-top: -12vh;
+    }
+
 }
 
 .section-features {
